@@ -1,0 +1,115 @@
+/* Блок Футтер */
+
+.footer__line {
+    max-width: 1200px;
+    border-top: 1px solid #e5e5e5;
+    top: 584px;
+    margin-top: 80px;
+  }
+
+  .footer__text {
+    font-size: 14px;
+    color: $section-color;
+    font-family: $font-primary;
+    font-weight: 400;
+    line-height: 60px;
+  }
+  
+  .footter__text--color {
+    color: $main-color;
+  }
+  
+  .footer__form {
+    font-size: 0;
+  }
+  
+  .footer__mail {
+    width: 228px;
+    height: 38px;
+    font-size: 15px;
+    color: black;
+    border: 1px solid #cccccc;
+    outline: none;
+    padding-left: 13px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: $font-secondary;
+    font-weight: 400;
+  }
+  
+  input[type="email"]::-webkit-input-placeholder {
+    font-size: 15px;
+    color: #cccccc;
+    text-transform: uppercase;
+    font-family: $font-secondary;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  input[type="email"]::-moz-placeholder {
+    font-size: 15px;
+    color: #cccccc;
+    text-transform: uppercase;
+    font-family: $font-secondary;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  input[type="email"]:-ms-input-placeholder {
+    font-size: 15px;
+    color: #cccccc;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  input[type="email"]::-ms-input-placeholder {
+    font-size: 15px;
+    color: #cccccc;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  input[type="email"]::placeholder {
+    font-size: 15px;
+    color: #cccccc;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  input[type="email"]:valid:not(:placeholder-shown) {
+    -webkit-box-shadow: 0 0 0 1px green;
+    box-shadow: 0 0 0 1px green;
+  }
+  
+  input[type="email"]:invalid:not(:placeholder-shown) {
+    -webkit-box-shadow: 0 0 0 1px red;
+    box-shadow: 0 0 0 1px red;
+  }
+  
+  .footer__btn {
+    width: 150px;
+    height: 38px;
+    color: white;
+    background-color: $icon-button-color;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-family: $font-primary;
+    font-weight: 700;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+   &:hover {
+        background-color: $hover-color;
+      }
+      
+  }
+  
+  

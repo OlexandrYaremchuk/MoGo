@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* Обвертка*/
+.container-fluid {
+  height: 100%;
+}
+
+/*Контейнеp*/
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.no-gutter {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.padding-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/*# sourceMappingURL=container.css.map */

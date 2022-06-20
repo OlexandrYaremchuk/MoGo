@@ -1,0 +1,42 @@
+
+.service__item {
+    min-width: 80px;
+    height: 170px;
+  }
+  
+  .service__item--icon {
+    width: 32px;
+    height: 32px;
+    fill: $icon-button-color;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  
+  
+  &:hover {
+    fill: $hover-color;
+    }
+   }
+
+  .service__title {
+    font-size: 14px;
+    color: $section-color;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    font-family: $font-primary;
+    font-weight: 400;
+    line-height: 1;
+  }
+  
+  .service__text {
+    font-size: 15px;
+    color: #999999;
+    line-height: 24px;
+    word-wrap: break-word;
+    font-family: $font-secondary;
+    font-weight: 400;
+    margin-top: 17px;
+    margin-bottom: 90px;
+  }
+  

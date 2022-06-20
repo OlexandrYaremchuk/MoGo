@@ -1,0 +1,43 @@
+.section__wrapper {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .section__title {
+    font-size: 24px;
+    color: $section-color;
+    text-align: center;
+    font-family: $font-title;
+    font-weight: 400;
+    margin-top: 45px;
+  
+  
+  &::first-letter {
+    text-transform: uppercase;
+    }
+  }
+  .section__subtitle {
+    font-size: 30px;
+    color: $section-color;
+    margin-top: 21px;
+    text-align: center;
+    font-family: $font-title;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: $font-primary;
+    font-weight: 700;
+  
+  
+  &:after {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background: $main-color;
+    margin: 40px auto 0 auto;
+   }
+  }
+
+  .margin-top {
+    margin-top: 66px;
+  }

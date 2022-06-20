@@ -1,0 +1,22 @@
+/*
+   Import partials below
+*/
+@import './fonts.scss';
+@import 'helpers/variables.scss';
+@import './normalize';
+@import './base.scss';
+
+
+/* componets */
+
+@import 'components/container.scss';
+@import 'components/banner.scss';
+@import 'components/page-nav.scss';
+@import 'components/site-logo__img.scss';
+@import 'components/flex.scss';
+@import 'components/site-navigation.scss';
+@import 'components/page-header.scss';
+@import 'components/section.scss';
+@import 'components/service.scss';
+@import 'components/employee.scss';
+@import 'components/footer.scss';
